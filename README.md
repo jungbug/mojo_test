@@ -20,17 +20,10 @@ To use the Mojo language, you first need to download and install Mojo via [this 
 With the Mojo SDK, you can run a Mojo program from a terminal just like you would with Python. If your file name is hello.mojo (or hello.🔥—yes, file extensions can be emojis!), simply type mojo hello.mojo:
 
 ```shell
-$ cat hello.🔥
 def main():
     print("hello world")
     for x in range(9, 0, -3):
         print(x)
-$ mojo hello.🔥
-hello world
-9
-6
-3
-$
 ```
 
 ## Basic Systems Programming Extensions
